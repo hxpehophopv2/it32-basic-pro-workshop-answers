@@ -1,4 +1,4 @@
-name = input("Your name: "))
+name = input("Your name: ")
 age = int(input("Your age: "))
 height = float(input("Your height: "))
 power = int(input("Your power (1-10): "))
