@@ -17,6 +17,7 @@ while True:
     # 2. ถ้าไม่ใช่ police ค่อยแปลงข้อมูลเป็นตัวเลขเพื่อเอาไปบวกเงิน
     money = float(data)
     total_money += money
+    num_shops += 1
     print(f">> เก็บเงินเพิ่มได้ ยอดรวมเป็น {total_money} บาท\n")
 
 print(f"เมื่อกี้เก็บไปได้ทั้งหมด {num_shops} ร้านก่อนตำหนวดมา")
